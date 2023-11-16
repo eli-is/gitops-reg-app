@@ -1,6 +1,6 @@
 pipeline {
         agent { label "main" }
-             enviroment {
+           environment {
                        APP_NAME = "register-app-pipeline"
              }
         stages {
